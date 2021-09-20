@@ -48,4 +48,7 @@ navBar.forEach(function(a){
     })
 })
 
-// ADD TO CART
+// Add to Cart
+
+const buttons = document.querySelectorAll('button');
+

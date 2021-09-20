@@ -27,7 +27,7 @@
         <nav class="navbar navbar-expand-lg bg-white fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="./Asset/images/logo2.png" class="img-fluid" id="MainImg">
+                    <img src="./Asset/images/logo1.png" class="img-fluid" id="MainImg">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,10 +37,10 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#home">Home</a>
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#products">Products</a>
+                            <a class="nav-link active" href="Products.html">Products</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#special">Special</a>
@@ -49,18 +49,14 @@
                             <a class="nav-link" href="#testimonial">Testimonials</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
+                            <a class="nav-link" href="Contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa fa-heart-o"></i>
+                            <a class="nav-link" href="Shopingcart.html"><i class="fa fa-shopping-cart"></i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa fa-sign-in"> Sign in/ Sign up</i>
+                            <a class="nav-link" href="sign.html"><i class="fa fa-sign-in"> Sign in/ Sign up</i>
                             </a>
                         </li>
                     </ul>
@@ -69,16 +65,58 @@
         </nav>
     </section>
     <!-- Single Product-page -->
-  <section class="container">
-      <div class="row">
-          <div class="col-lg-6 col-md-4 col-sm-6"></div>
-          <div class="col"></div>
-      </div>
-  </section>
+    <div class="container single-product">
+        <div class="row">
+            <div class="col">
+                <img src="./Asset/images/offer1.jpg" alt="" width="100%" id="productimg">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="./Asset/images/offer4.jpg" alt="" width="100%" class="smallImg">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./Asset/images/offer1.jpg" alt="" width="100%" class="smallImg">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./Asset/Products-img/p-2.png" alt="" width="100%" class="smallImg">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./Asset/Products-img/p-1.png" alt="" width="100%" class="smallImg">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <p>Home /Kurti</p>
+                <h1>Long Red Kurti by SCJ</h1>
+                <h4>$50.00 <span class="px-2">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </span></h4>
+
+                <select name="" id="">
+                    <option value="">Select Size</option>
+                    <option value="">XXL</option>
+                    <option value="">XL</option>
+                    <option value="">M</option>
+                    <option value="">S</option>
+                    <option value="">XS</option>
+                </select>
+                <input type="number" name="" id="" value="1">
+                <a href="#" class="bg-danger p-2 rounded text-white">Add To Cart</a>
+                <h3>Product Details</h3>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde numquam obcaecati saepe dicta officiis
+                    voluptatum, doloremque animi! Laboriosam sunt odio accusamus saepe odit dolore deleniti.</p>
+            </div>
+        </div>
+
+    </div>
 
     <!-- Product page -->
-    <div class="container Product">
-        <h3 class="text-center">Related Products</h3>
+    <div class="container Product mt-2">
+        <h2 class="text-center">Similar Products</h2>
         <div class="row">
             <div class="mx-auto col-xl-3 col-lg-4 col-md-4 col-sm-6">
                 <div class="card">
@@ -137,7 +175,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mx-auto col-xl-3 col-md-4 col-sm-6">
+            <div class="mx-auto col-xl-3 col-md-4 col-sm-6 p-2 mb-2">
                 <div class="card">
                     <img src="./Asset/Products-img/cat-1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -235,26 +273,145 @@
 
         </div>
     </div>
+    <!-- Footer -->
+    <!-- Footer section -->
+    <footer class="page-footer font-small elegant-color relative">
+        <hr>
+        <!-- Footer Links -->
+
+        <!-- Grid row -->
+        <div class="container-fluid row mt-1 mt-md-0 mb-4 mb-md-0">
+
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto mt-3 mt-md-0 mb-0 mb-md-4">
+
+                <!-- Links -->
+                <h5>About me</h5>
+                <hr class="color-primary mb-4 mt-0 d-inline-block mx-auto w-60">
+
+                <p class="foot-desc mb-0">Here you can use rows and columns to organize your footer
+                    content. Lorem
+                    ipsum dolor sit amet,
+                    consectetur
+                    adipisicing elit.</p>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto mt-3 mt-md-0 mb-0 mb-md-4">
+
+                <!-- Links -->
+                <h5>Products</h5>
+                <hr class="color-primary mb-4 mt-0 d-inline-block mx-auto w-60">
+
+                <ul class="list-unstyled foot-desc">
+                    <li class="mb-2">
+                        <a href="#!">SCJENTERTAINMENTS</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#!">Men's Fashion</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#!">Brand New Products</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#!">Party Special Dress</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto mt-3 mt-md-0 mb-0 mb-md-4">
+
+                <!-- Links -->
+                <h5>Useful links</h5>
+                <hr class="color-primary mb-4 mt-0 d-inline-block mx-auto w-60">
+
+                <ul class="list-unstyled foot-desc">
+                    <li class="mb-2">
+                        <a href="#!">Your Account</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#!">Become an Affiliate</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#!">Shipping Rates</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#!">Help</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto mt-3 mt-md-0 mb-0 mb-md-4">
+
+                <!-- Links -->
+                <h5>Contacts</h5>
+                <hr class="color-primary mb-4 mt-0 d-inline-block mx-auto w-60">
+
+                <ul class="fa-ul foot-desc ml-4">
+                    <li class="mb-2"><span class="fa-li"><i class="fa fa-map"></i></span>New York,
+                        Avenue Street 10
+                    </li>
+                    <li class="mb-2"><span class="fa-li"><i class="fa fa-phone"></i></span>042 876 836
+                        908</li>
+                    <li class="mb-2"><span class="fa-li"><i class="fa fa-envelope"></i></span>company@example.com</li>
+                    <li><span class="fa-li"><i class="far fa-clock"></i></span>Monday - Friday: 10-17
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2021 Copyright:
+            <a href="#">SCJENTERTAINMENTS.COM</a> |
+            <a href="#">Design and developed By Mithlesh</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+    <!-- JS FOR PRODUCT GALLERY -->
     <script>
-        var MainImg = document.getElementById('MainImg');
-        var smallImg = document.getElementsByClassName('small-img');
+        var productimg = document.getElementById("productimg");
+        var smallImg = document.getElementsByClassName("smallImg");
 
-        smallImg[0].onClick = function () {
-            MainImg.src = smallimg[0].src;
+        smallImg[0].onclick = function () {
+            productimg.src = smallImg[0].src;
+        }
+        smallImg[1].onclick = function () {
+            productimg.src = smallImg[1].src;
+        }
+        smallImg[2].onclick = function () {
+            productimg.src = smallImg[2].src;
+        }
+        smallImg[3].onclick = function () {
+            productimg.src = smallImg[3].src;
         }
 
-        smallImg[2].onClick = function () {
-            MainImg.src = smallimg[2].src;
-        }
 
-        smallImg[2].onClick = function () {
-            MainImg.src = smallimg[2].src;
-        }
 
-        smallImg[3].onClick = function () {
-            MainImg.src = smallimg[3].src;
-        }
     </script>
+
 </body>
 
 </html>

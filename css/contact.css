@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -25,6 +27,8 @@ body {
     color: var(--text-black);
     overflow-x:hidden;
 } 
+
+/* Custom CSS */
 a,
 a:hover{
     text-decoration: none;
@@ -43,13 +47,15 @@ p{
     color:var(--text-danger);
     background:transparent; 
 }
+
+
 /* Navigation CSS */ 
 #header .fixed-top{
     box-shadow: 0 0.125rem 0.675rem rgb(0 0 0 / 5%);
 }
 #header .navbar-nav .nav-item .nav-link{
-    color:var(--text-black);
-    padding:0.5rem 1rem;
+    color:var(--text-white);
+    padding:0.5rem .5rem;
     text-align: center;
 }
 #header .navbar-nav .nav-item .nav-link:hover,
@@ -63,31 +69,31 @@ p{
 #header .navbar-toggler:focus{
     box-shadow: none;
 }
-
-/* single product Details */
-.single-product{
-    margin-top: 10rem;
+/* Contact us */
+.contact{
     position: relative;
-    background-color: grey;
+    margin-top: 15rem;
 }
-.single-product .col,img{
-    padding: 2rem;
+form input {
+    width: 31rem;
+    padding: .5rem;
+    margin-top: .3rem;
 }
-.single-product h4{
-    margin-top: 50px;
-    font-size: 2rem;
-    font-weight: bold;
+form input:focus{
+    outline: none;
 }
-.single-product select{
-    display: block;
-    padding: 10px;
-    margin: 10px 0 10px 0;
+form textarea{
+    margin-top: .3rem;
 }
-.small-img-row{
-    display: flex;
-    justify-content: space-between;
+form textarea:focus{
+    outline: none;
 }
-.small-img-col{
-    flex-shrink: 24%;
-    cursor: pointer;
+/* Google Map */
+.google-map{
+    width: 100px;
+    height: auto;
+}
+.google-map iframe{
+    height: 60vh;
+    padding: 1rem;
 }

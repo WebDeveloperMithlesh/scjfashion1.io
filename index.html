@@ -25,6 +25,9 @@
   <!-- Responsive 5 css -->
   <link rel="stylesheet" href="assets/css/responsive.css">
 
+  <!-- Add to cart Js -->
+  <script src="./Js/store.js" async></script>
+
 
 </head>
 
@@ -32,10 +35,10 @@
 
   <!-- Navigation section -->
   <section id="header">
-    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+    <nav class="navbar navbar-expand-lg bg-black fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="./Asset/images/logo2.png" class="img-fluid">
+          <img src="./Asset/images/logo1.png" class="img-fluid">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,33 +48,35 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#products">Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#special">Special</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#testimonial">Testimonials</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fa fa-heart-o"></i>
+              <a href="#" class="nav-link">
+                <input type="search" name="" id="" placeholder="Search Product here">
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fa fa-sign-in"> Sign in/ Sign up</i>
-              </a>
-            </li>
-          </ul>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#products">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#special">Special</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonial">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Shopingcart.html"><i class="fa fa-shopping-cart"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sign.html"><i class="fa fa-sign-in"> Sign in/ Sign up</i>
+                </a>
+              </li>
+            </ul>
         </div>
       </div>
     </nav>
@@ -93,7 +98,7 @@
             <div class="home-banner-text">
               <h1>Women</h1>
               <h2>52% Discount For This Season</h2>
-              <a href="#" class="btn btn-danger text-uppercase mt-4">Our Products</a>
+              <a href="Products.html" class="btn btn-danger text-uppercase mt-4">Our Products</a>
             </div>
           </div>
         </div>
@@ -221,141 +226,166 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-6 col-lg-4">
-          <a href="#" class="d-block text-center mb-4">
-            <div class="product-list">
-              <div class="product-image position-relative">
-                <span class="sale">Sale</span>
-                <img src="./asset/images/p1.jpg" alt="products" class="img-fluid product-image-first">
-                <img src="./asset/images/p3.jpg" alt="products" class="img-fluid product-image-secondary">
-              </div>
-              <div class="product-name pt-3">
-                <h3 class="text-capitalize">Winter Long Sleeve Black White</h3>
-                <p class="mb-0 amount">$400.00 <del>$580.00</del></p>
-                <div class="py-1">
-                  <span class="ti-star"></span>
-                  <span class="ti-star"></span>
-                  <span class="ti-star"></span>
-                  <span class="ti-star"></span>
-                  <span class="ti-star"></span>
+      <div class="container Product">
+        <div class="row">
+          <div class="mx-auto col-xl-3 col-lg-4 col-md-4 col-sm-6">
+            <div class="card">
+              <img src="./Asset/Products-img/cat-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6>Ladies</h6>
+                <h5 class="card-title">Long Kurta</h5>
+                <p class="card-text">$300.5 <span class="ml-auto float-end">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </span></p>
+                <div class="text-center">
+                  <a href="#" class="btn btn-primary mt-1 ">Add to cart</a>
                 </div>
-                <button type="button" class="add_to_Card">ADD TO CARD</button>
               </div>
             </div>
-          </a>
-        </div>
-        <div class="col-sm-6 col-lg-4">
-          <a href="#" class="d-block text-center mb-4">
-            <div class="product-list">
-              <div class="product-image position-relative">
-                <img src="./asset/images/p2.jpg" alt="products" class="img-fluid product-image-first">
-                <img src="./asset/images/p4.jpg" alt="products" class="img-fluid product-image-secondary">
-              </div>
-              <div class="product-name pt-3">
-                <h3 class="text-capitalize">women totes lady handbag</h3>
-                <p class="mb-0 amount">$300.00</p>
-                <div class="py-1">
-                  <span class="ti-star active"></span>
-                  <span class="ti-star active"></span>
-                  <span class="ti-star active"></span>
-                  <span class="ti-star"></span>
-                  <span class="ti-star"></span>
+          </div>
+          <div class="mx-auto col-xl-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img src="./Asset/Products-img/cat-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6>Ladies</h6>
+                <h5 class="card-title">Long Kurta</h5>
+                <p class="card-text">$300.5 <span class="ml-auto float-end">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </span></p>
+                <div class="text-center">
+                  <a href="#" class="btn btn-primary mt-1 ">Add to cart</a>
                 </div>
-                <button type="button" class="add_to_Card">ADD TO CARD</button>
               </div>
             </div>
-          </a>
-        </div>
-        <div class="col-sm-6 col-lg-4">
-          <a href="#" class="d-block text-center mb-4">
-            <div class="product-list">
-              <div class="product-image position-relative">
-                <img src="./asset/images/p4.jpg" alt="products" class="img-fluid product-image-first">
-                <img src="./asset/images/p6.jpg" alt="products" class="img-fluid product-image-secondary">
-              </div>
-              <div class="product-name pt-3">
-                <h3 class="text-capitalize">Lace water soluble sexy dress</h3>
-                <p class="mb-0 amount">$600.00</p>
-                <div class="py-1">
-                  <span class="ti-star active"></span>
-                  <span class="ti-star active"></span>
-                  <span class="ti-star active"></span>
-                  <span class="ti-star active"></span>
-                  <span class="ti-star active"></span>
+          </div>
+          <div class="mx-auto col-xl-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img src="./Asset/Products-img/cat-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6>Ladies</h6>
+                <h5 class="card-title">Long Kurta</h5>
+                <p class="card-text">$300.5 <span class="ml-auto float-end">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </span></p>
+                <div class="text-center">
+                  <a href="#" class="btn btn-primary mt-1 ">Add to cart</a>
                 </div>
-                <button type="button" class="add_to_Card">ADD TO CARD</button>
               </div>
             </div>
-          </a>
-        </div>
-        <div class="col-sm-6 col-lg-4">
-          <a href="#" class="d-block text-center mb-4">
-            <div class="product-list">
-              <div class="product-image position-relative">
-                <img src="./asset/images/p10.jpg" alt="products" class="img-fluid product-image-first">
-                <img src="./asset/images/p8.jpg" alt="products" class="img-fluid product-image-secondary">
-              </div>
-              <div class="product-name pt-3">
-                <h3 class="text-capitalize">Elegant Formal Party Dress</h3>
-                <p class="mb-0 amount">$500.00</p>
-                <div class="py-1">
-                  <span class="ti-star active"></span>
-                  <span class="ti-star active"></span>
-                  <span class="ti-star"></span>
-                  <span class="ti-star"></span>
-                  <span class="ti-star"></span>
+          </div>
+          <div class="mx-auto col-xl-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img src="./Asset/Products-img/cat-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6>Ladies</h6>
+                <h5 class="card-title">Long Kurta</h5>
+                <p class="card-text">$300.5 <span class="ml-auto float-end">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </span></p>
+                <div class="text-center">
+                  <a href="#" class="btn btn-primary mt-1 ">Add to cart</a>
                 </div>
-                <button type="button" class="add_to_Card">ADD TO CARD</button>
               </div>
             </div>
-          </a>
-        </div>
-        <div class="col-sm-6 col-lg-4">
-          <a href="#" class="d-block text-center mb-4">
-            <div class="product-list">
-              <div class="product-image position-relative">
-                <span class="sale">Sale</span>
-                <img src="./asset/images/p8.jpg" alt="products" class="img-fluid product-image-first">
-                <img src="./asset/images/p10.jpg" alt="products" class="img-fluid product-image-secondary">
-              </div>
-              <div class="product-name pt-3">
-                <h3 class="text-capitalize">Mini Dress Ladies Sleeve</h3>
-                <p class="mb-0 amount">$600.00</p>
-                <div class="py-1">
-                  <span class="ti-star active"></span>
-                  <span class="ti-star active"></span>
-                  <span class="ti-star active"></span>
-                  <span class="ti-star"></span>
-                  <span class="ti-star"></span>
+          </div>
+          <div class="mx-auto col-xl-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img src="./Asset/Products-img/cat-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6>Ladies</h6>
+                <h5 class="card-title">Long Kurta</h5>
+                <p class="card-text">$300.5 <span class="ml-auto float-end">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </span></p>
+                <div class="text-center">
+                  <a href="#" class="btn btn-primary mt-1 ">Add to cart</a>
                 </div>
-                <button type="button" class="add_to_Card">ADD TO CARD</button>
               </div>
             </div>
-          </a>
-        </div>
-        <div class="col-sm-6 col-lg-4">
-          <a href="#" class="d-block text-center mb-4">
-            <div class="product-list">
-              <div class="product-image position-relative">
-                <img src="./asset/images/p1.jpg" alt="products" class="img-fluid product-image-first">
-                <img src="./Asset/images/p2.jpg" alt="products" class="img-fluid product-image-secondary">
-              </div>
-              <div class="product-name pt-3">
-                <h3 class="text-capitalize">Winter Long Sleeve Black White </h3>
-                <p class="mb-0 amount">$500.00</p>
-                <div class="py-1">
-                  <span class="ti-star active"></span>
-                  <span class="ti-star active"></span>
-                  <span class="ti-star active"></span>
-                  <span class="ti-star active"></span>
-                  <span class="ti-star"></span>
+          </div>
+          <div class="mx-auto col-xl-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img src="./Asset/Products-img/cat-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6>Ladies</h6>
+                <h5 class="card-title">Long Kurta</h5>
+                <p class="card-text">$300.5 <span class="ml-auto float-end">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </span></p>
+                <div class="text-center">
+                  <a href="#" class="btn btn-primary mt-1 ">Add to cart</a>
                 </div>
-                <button type="button" class="add_to_Card">ADD TO CARD</button>
               </div>
             </div>
-          </a>
+          </div>
+          <div class="mx-auto col-xl-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img src="./Asset/Products-img/cat-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6>Ladies</h6>
+                <h5 class="card-title">Long Kurta</h5>
+                <p class="card-text">$300.5 <span class="ml-auto float-end">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </span></p>
+                <div class="text-center">
+                  <a href="#" class="btn btn-primary mt-1 ">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mx-auto col-xl-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img src="./Asset/Products-img/cat-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6>Ladies</h6>
+                <h5 class="card-title">Long Kurta</h5>
+                <p class="card-text">$300.5 <span class="ml-auto float-end">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </span></p>
+                <div class="text-center">
+                  <a href="#" class="btn btn-primary mt-1 ">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="container">
+          <a href="Products.html" class="text-center float-end p-2 text-danger">Click for More Products <i
+              class="fa fa-arrow-right"></i>
+        </div>
+        </a>
       </div>
 
 
@@ -481,217 +511,161 @@
     </div>
   </section>
 
-  <!-- Contact section -->
-  <section id="contact">
-    <div class="contact">
-      <div class="container">
-        <div class="mb-5 text-center">
-          <h5>Let’s Start a Conversation!</h5>
-          <h2 class="fw-bold">Contact Us</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-5 col-md-5">
-            <h4 class="fw-bold">Contact Info</h4>
-            <ul class="info list-unstyled">
-              <li class="d-flex align-items-center">
-                <span class="pe-3 ti-location-pin fs-5"></span>
-                <p><a href="">Lorem ipsum dolor sit amet, consectetur.</a></p>
-              </li>
-              <li class="d-flex align-items-center">
-                <span class="pe-3 ti-mobile fs-5"></span>
-                <p><a href="">+91 9000000-00</a></p>
-              </li>
-              <li class="d-flex align-items-center">
-                <span class="pe-3 ti-envelope fs-5"></span>
-                <p><a href="">scj@ecommerce.in</a></p>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-7 col-md-7 pt-lg-0 pt-md-0 pt-4">
-            <form>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input type="text" class="form-control" name="name" id="name" placeholder="Your name">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Email address">
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="form-group">
-                    <input class="textarea" name="message" cols="30" rows="4" id="message"
-                      placeholder="Enter your message">
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <button class="btn btn-danger"><span class="ti-rocket pe-2 fs-5"></span> Send Message</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
   <!-- Footer section -->
- <!-- Footer -->
-<footer class="page-footer font-small elegant-color">
+  <!-- Footer -->
+  <footer class="page-footer font-small elegant-color">
 
-  <div class="bg-danger">
-    <div class="container">
+    <div class="bg-danger">
+      <div class="container">
 
-      <!-- Grid row-->
-      <div class="row py-5 d-flex align-items-center">
+        <!-- Grid row-->
+        <div class="row py-5 d-flex align-items-center">
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-5 text-md-left mb-4 mb-md-0">
+            <h6 class="mb-0">Get connected with us on social networks!</h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-7 text-end text-md-right">
+
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fa fa-facebook-f white-text mr-4"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fa fa-twitter white-text mr-4"> </i>
+            </a>
+
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fa fa-linkedin-in white-text mr-4"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fa fa-instagram white-text"> </i>
+            </a>
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row-->
+
+      </div>
+    </div>
+    <hr>
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left pt-4 pt-md-5">
+
+      <!-- Grid row -->
+      <div class="row mt-1 mt-md-0 mb-4 mb-md-0">
 
         <!-- Grid column -->
-        <div class="col-md-6 col-lg-5 text-md-left mb-4 mb-md-0">
-          <h6 class="mb-0">Get connected with us on social networks!</h6>
+        <div class="col-md-3 mx-auto mt-3 mt-md-0 mb-0 mb-md-4">
+
+          <!-- Links -->
+          <h5>About me</h5>
+          <hr class="color-primary mb-4 mt-0 d-inline-block mx-auto w-60">
+
+          <p class="foot-desc mb-0">Here you can use rows and columns to organize your footer content. Lorem
+            ipsum dolor sit amet,
+            consectetur
+            adipisicing elit.</p>
+
         </div>
         <!-- Grid column -->
 
-        <!-- Grid column -->
-        <div class="col-md-6 col-lg-7 text-end text-md-right">
+        <hr class="clearfix w-100 d-md-none">
 
-          <!-- Facebook -->
-          <a class="fb-ic">
-            <i class="fa fa-facebook-f white-text mr-4"> </i>
-          </a>
-          <!-- Twitter -->
-          <a class="tw-ic">
-            <i class="fa fa-twitter white-text mr-4"> </i>
-          </a>
-         
-          <!--Linkedin -->
-          <a class="li-ic">
-            <i class="fa fa-linkedin-in white-text mr-4"> </i>
-          </a>
-          <!--Instagram-->
-          <a class="ins-ic">
-            <i class="fa fa-instagram white-text"> </i>
-          </a>
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto mt-3 mt-md-0 mb-0 mb-md-4">
+
+          <!-- Links -->
+          <h5>Products</h5>
+          <hr class="color-primary mb-4 mt-0 d-inline-block mx-auto w-60">
+
+          <ul class="list-unstyled foot-desc">
+            <li class="mb-2">
+              <a href="#!">SCJENTERTAINMENTS</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!">Men's Fashion</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!">Brand New Products</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!">Party Special Dress</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto mt-3 mt-md-0 mb-0 mb-md-4">
+
+          <!-- Links -->
+          <h5>Useful links</h5>
+          <hr class="color-primary mb-4 mt-0 d-inline-block mx-auto w-60">
+
+          <ul class="list-unstyled foot-desc">
+            <li class="mb-2">
+              <a href="#!">Your Account</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!">Become an Affiliate</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!">Shipping Rates</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!">Help</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto mt-3 mt-md-0 mb-0 mb-md-4">
+
+          <!-- Links -->
+          <h5>Contacts</h5>
+          <hr class="color-primary mb-4 mt-0 d-inline-block mx-auto w-60">
+
+          <ul class="fa-ul foot-desc ml-4">
+            <li class="mb-2"><span class="fa-li"><i class="fa fa-map"></i></span>New York, Avenue Street 10
+            </li>
+            <li class="mb-2"><span class="fa-li"><i class="fa fa-phone"></i></span>042 876 836 908</li>
+            <li class="mb-2"><span class="fa-li"><i class="fa fa-envelope"></i></span>company@example.com</li>
+            <li><span class="fa-li"><i class="far fa-clock"></i></span>Monday - Friday: 10-17</li>
+          </ul>
 
         </div>
         <!-- Grid column -->
 
       </div>
-      <!-- Grid row-->
+      <!-- Grid row -->
 
     </div>
-  </div>
-<hr>
-  <!-- Footer Links -->
-  <div class="container text-center text-md-left pt-4 pt-md-5">
+    <!-- Footer Links -->
 
-    <!-- Grid row -->
-    <div class="row mt-1 mt-md-0 mb-4 mb-md-0">
-
-      <!-- Grid column -->
-      <div class="col-md-3 mx-auto mt-3 mt-md-0 mb-0 mb-md-4">
-
-        <!-- Links -->
-        <h5>About me</h5>
-        <hr class="color-primary mb-4 mt-0 d-inline-block mx-auto w-60">
-
-        <p class="foot-desc mb-0">Here you can use rows and columns to organize your footer content. Lorem
-          ipsum dolor sit amet,
-          consectetur
-          adipisicing elit.</p>
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-3 mx-auto mt-3 mt-md-0 mb-0 mb-md-4">
-
-        <!-- Links -->
-        <h5>Products</h5>
-        <hr class="color-primary mb-4 mt-0 d-inline-block mx-auto w-60">
-
-        <ul class="list-unstyled foot-desc">
-          <li class="mb-2">
-            <a href="#!">SCJENTERTAINMENTS</a>
-          </li>
-          <li class="mb-2">
-            <a href="#!">Men's Fashion</a>
-          </li>
-          <li class="mb-2">
-            <a href="#!">Brand New Products</a>
-          </li>
-          <li class="mb-2">
-            <a href="#!">Party Special Dress</a>
-          </li>
-        </ul>
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-3 mx-auto mt-3 mt-md-0 mb-0 mb-md-4">
-
-        <!-- Links -->
-        <h5>Useful links</h5>
-        <hr class="color-primary mb-4 mt-0 d-inline-block mx-auto w-60">
-
-        <ul class="list-unstyled foot-desc">
-          <li class="mb-2">
-            <a href="#!">Your Account</a>
-          </li>
-          <li class="mb-2">
-            <a href="#!">Become an Affiliate</a>
-          </li>
-          <li class="mb-2">
-            <a href="#!">Shipping Rates</a>
-          </li>
-          <li class="mb-2">
-            <a href="#!">Help</a>
-          </li>
-        </ul>
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-3 mx-auto mt-3 mt-md-0 mb-0 mb-md-4">
-
-        <!-- Links -->
-        <h5>Contacts</h5>
-        <hr class="color-primary mb-4 mt-0 d-inline-block mx-auto w-60">
-
-        <ul class="fa-ul foot-desc ml-4">
-          <li class="mb-2"><span class="fa-li"><i class="fa fa-map"></i></span>New York, Avenue Street 10
-          </li>
-          <li class="mb-2"><span class="fa-li"><i class="fa fa-phone"></i></span>042 876 836 908</li>
-          <li class="mb-2"><span class="fa-li"><i class="fa fa-envelope"></i></span>company@example.com</li>
-          <li><span class="fa-li"><i class="far fa-clock"></i></span>Monday - Friday: 10-17</li>
-        </ul>
-
-      </div>
-      <!-- Grid column -->
-
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2021 Copyright:
+      <a href="#">SCJENTERTAINMENTS.COM</a>
     </div>
-    <!-- Grid row -->
+    <!-- Copyright -->
 
-  </div>
-  <!-- Footer Links -->
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2021 Copyright:
-    <a href="#">SCJENTERTAINMENTS.COM</a>
-  </div>
-  <!-- Copyright -->
-
-</footer>
-<!-- Footer -->
+  </footer>
+  <!-- Footer -->
 
   <!-- Scroll Backt To Top -->
   <div id="scrollUp" title="Scroll To Top">
